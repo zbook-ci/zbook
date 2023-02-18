@@ -1,0 +1,1 @@
+import{j as a}from"./index-8747d21c.js";import"./chakra-ui-c05b5861.js";const e=a.create({baseURL:"https://api.zbook.eu.org/",timeout:3e4});async function p(t){return(await e.get("search",{params:t})).data.books}export{p as default};
